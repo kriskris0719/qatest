@@ -20,6 +20,7 @@ public class BaseTests {
         inputsLink2.click();
         List<WebElement> lnks = driver.findElements(By.tagName("li"));
         System.out.println("Number Links "+lnks.size());
+        // something
     }
 
     public void ex(){
