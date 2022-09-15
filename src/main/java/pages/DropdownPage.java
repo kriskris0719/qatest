@@ -17,7 +17,7 @@ public class DropdownPage {
     }
 
     public void selectFromDropDown(String option) {
-        findDropDownElement().selectByVisibleText();
+        findDropDownElement().selectByVisibleText(option);
     }
 
     public List<String> getSelectedOptions() {
