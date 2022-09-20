@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="QaTest" duration-ms="12858" started-at="2022-09-19T15:05:46 EEST" finished-at="2022-09-19T15:05:59 EEST">
+    <groups>
+    </groups>
+    <test name="DropTest" duration-ms="6751" started-at="2022-09-19T15:05:46 EEST" finished-at="2022-09-19T15:05:53 EEST">
+      <class name="dropdown.DropdownTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:dropdown.DropdownTests@3234e239]" name="setUp" is-config="true" duration-ms="5490" started-at="2022-09-19T15:05:46 EEST" finished-at="2022-09-19T15:05:52 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSelectOption()[pri:0, instance:dropdown.DropdownTests@3234e239]" name="testSelectOption" duration-ms="557" started-at="2022-09-19T15:05:52 EEST" finished-at="2022-09-19T15:05:52 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOption -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:dropdown.DropdownTests@3234e239]" name="tearDown" is-config="true" duration-ms="670" started-at="2022-09-19T15:05:52 EEST" finished-at="2022-09-19T15:05:53 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dropdown.DropdownTests -->
+    </test> <!-- DropTest -->
+    <test name="LoginTest" duration-ms="6086" started-at="2022-09-19T15:05:53 EEST" finished-at="2022-09-19T15:05:59 EEST">
+      <class name="login.LoginTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:login.LoginTests@262b2c86]" name="setUp" is-config="true" duration-ms="4063" started-at="2022-09-19T15:05:53 EEST" finished-at="2022-09-19T15:05:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSuccessfulLogin()[pri:0, instance:login.LoginTests@262b2c86]" name="testSuccessfulLogin" duration-ms="1386" started-at="2022-09-19T15:05:57 EEST" finished-at="2022-09-19T15:05:58 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login.LoginTests@262b2c86]" name="tearDown" is-config="true" duration-ms="637" started-at="2022-09-19T15:05:58 EEST" finished-at="2022-09-19T15:05:59 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.LoginTests -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- QaTest -->
+</testng-results>
